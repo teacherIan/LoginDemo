@@ -1,0 +1,47 @@
+.root {
+    -fx-background-color: linear-gradient(to bottom left,#003049,#AD1131);
+    -fx-background-radius: 150px;
+}
+
+
+.exitButton {
+    -fx-background-color: #000;
+    -fx-background-radius: 60px;
+
+}
+
+.signInButton {
+    -fx-shape: "M13,-16.6C18.2,-11.2,24.6,-8.3,29.3,-2.2C33.9,4,36.8,13.5,32.8,17.5C28.7,21.5,17.7,20,9.3,21.3C0.8,22.7,-5.2,26.7,-12.9,27.4C-20.5,28.1,-29.8,25.3,-30,19.9C-30.2,14.4,-21.2,6.1,-17,-0.5C-12.8,-7.1,-13.5,-12,-11.5,-18C-9.5,-24,-4.7,-31.1,-0.4,-30.7C3.9,-30.2,7.8,-22.1,13,-16.6Z";
+    -fx-background-color: #fff;
+
+}
+
+.text-field-control {
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+    -fx-border-color: #fff;
+}
+
+.newAccountButton {
+    -fx-background-color: #fff;
+    -fx-shape: "M16.3,-20.5C23.3,-13.6,32.6,-10.5,37.2,-3.7C41.8,3.1,41.8,13.6,35.5,16.7C29.2,19.8,16.6,15.5,6.8,19.3C-3,23.1,-10,35,-15,35.6C-20,36.3,-23,25.6,-26,16.8C-29.1,7.9,-32.3,0.8,-31.5,-5.9C-30.7,-12.5,-25.9,-18.8,-20,-25.9C-14.1,-33,-7,-40.9,-1.2,-39.5C4.7,-38.1,9.3,-27.4,16.3,-20.5Z";
+}
+
+.newAccountButton:hover {
+    /*-fx-scale-x: 1.05px;*/
+    /*-fx-scale-y: 1.05px;*/
+
+    }
+
+.signInButton:hover {
+    /*-fx-scale-x: 1.05px;*/
+    /*-fx-scale-y: 1.05px;*/
+
+}
+
+.signInButton:pressed {
+    -fx-scale-x: 0.9px;
+    -fx-scale-y: 0.9px;
+
+}
+
